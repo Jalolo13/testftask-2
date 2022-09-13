@@ -1,0 +1,51 @@
+@import '../../App.sass'
+
+.navbar
+    height: 100%
+    background: #fff
+    min-width: 250px
+    position: fixed
+
+.nav-block
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 66px 12px 42px 12px
+
+.nav-links
+    display: flex
+    flex-direction: column
+    text-align: center
+    width: 100%
+
+.nav-link-item
+    width: 100%
+    border: 1px solid $clr2
+    border-radius: 6px
+    padding: 17px 0
+    margin-top: 15px
+    &:first-child
+        margin-top: 42px
+    &:hover
+        border: 1px solid #080dab        
+    &:focus
+        border: 1px solid $clr1
+
+.admin-logout
+    width: 185px
+    background: $clr2
+    text-align: center
+    border-radius: 6px
+    padding: 22px 0
+    position: absolute
+    bottom: 42px
+
+.admin-admin
+    font-weight: 700
+    margin: 12px 0
+
+.btn-logout
+    border-radius: 6px
+    background: #fff
+    width: 110px
+    height: 30px
